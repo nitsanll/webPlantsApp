@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="css/style.css">
+	<script src="scripts.js"></script>
+	
+</head>
+<body>	
+	<div id="wrapper">
+		<header>
+			<a href="index.html" class="miniLogo flowerLogo"></a>
+			<a href="#" class="logo"></a>
+			<div id = "clear"> </div>
+		</header>
+		<main>
+			<form method="get" action="/search" id="search">
+  				<input name="q" type="text" size="40" placeholder="חפש צמח..." />
+			</form>
+			<section class="infoHead">
+				<div class="wrapp">
+				<h1 class = "pageH pageHFind">מציאת חנות לרכישה מרווה</h1>
+				<hr class="shortLine findCity">
+				
+				 </div>	
+			</section>
+			
+			<div class="row">
+			  <div class="col-lg-6">
+			    <div class="input-group">
+			      <input type="text" class="form-control" aria-label="..." placeholder="בחר עיר/ישוב...">
+			      <div class="input-group-btn">
+			       <a href="#cityList" id="btnList"> 
+			       	<button type="button" class="btn btn-default"> <span class="caret"></span></button>
+			       </a>
+			      </div><!-- /btn-group -->
+			    </div><!-- /input-group -->
+			  </div><!-- /.col-lg-6 -->
+			</div><!-- /.row -->
+			
+		
+			
+			
+		</main>
+			<section id="cityList">
+				 <ul class="">
+				    <li><a href="#">Action</a></li>
+				    <li><a href="#">Another action</a></li>
+				    <li><a href="#">Something else here</a></li>
+				    <li role="separator" class=""></li>
+				    <li><a href="#">Separated link</a></li>
+				  </ul>
+				
+			</section>
+		<nav id="nnn">
+			<ul>
+				<li><a href="#" id="settings"></a> הגדרות </li>
+				<li><a href="#" id="medicine"></a> תרופות סבתא</li>
+				<li><a href="#" id="flower"></a>צמחי נוי</li>
+				<li><a href="#" id="wiki"></a>ויקיצמח</li>	
+			</ul>
+			<div id = "clear"> </div>
+		</nav>
+		
+	</div>
+</body>
+</html>
+
+
+
+<!-- 
+#cityList{
+		display:block;
+		position:fixed;
+		bottom:0px;
+		overflow: scroll;
+		color:black;
+		z-index: 10px;
+	} -->
